@@ -1,0 +1,210 @@
+body{
+	margin: 0px;
+	display: block;
+}
+
+@media only screen and (min-width: 768px)
+{	
+
+	.logo-container{
+	    padding: 23px  !important;
+    	margin-bottom: 30px;
+	}
+
+	.logo svg{
+	    height: 56px !important;
+	}
+	
+
+	.login-rodape{
+	    display: flex;
+	    -webkit-box-pack: justify;
+	    justify-content: space-between;
+	    -webkit-box-align: end;
+	    align-items: center;
+	}
+
+	.login-rodape button{
+		width: auto !important;
+    	margin-top: 0px !important;
+	}
+
+}
+
+.content-page{
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo svg{
+	height: 42px;
+}
+
+.logo-container{
+    border-bottom: 1px solid rgb(217, 218, 220);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.login-container{
+	max-width: 450px;
+    width: 100%;
+}
+
+.login-container p{
+	font-size: 0.875rem;
+}
+
+.login-rodape button{
+    width: 100%;
+    background-color: #1ed760;
+    text-transform: uppercase;
+    padding: 14px 32px;
+
+    letter-spacing: 2px;
+
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+	
+    margin-top: 15px;
+
+}
+
+.login-button:hover{   
+    transform: scale(1.04);
+    background-color: #26eb6e;
+}
+
+
+
+.form-row{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 12px;
+}
+
+p{
+	font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+input{
+	font-size: 1rem;
+	width: 100%;
+	border-radius: 4px;
+	border:  0px;
+	padding: 14px;
+	box-shadow: inset 0 0 0 1px #878787;
+	font-family: spotify-circular-regular, Helvetica, Arial, sans-serif;
+	margin: 3px 0;
+	box-sizing: border-box;
+
+}
+
+label{
+	box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+	font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.login-rodape a{
+	box-sizing: border-box;
+    font-family: spotify-circular-regular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.login-button:hover{
+	cursor: pointer;
+}
+
+.form-errors{
+	box-sizing: border-box;
+    font-family: spotify-circular-regular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: #e91429;
+    color: #ffffff;
+    padding: 12px 16px;
+    transition: background 0.1s ease 0s;
+    margin-bottom: 20px;
+}
+
+.form-errors span{
+	flex: 1 1 0%;
+	font-size: 0.875rem;
+    padding-top: 5px;
+}
+
+.icon-warning{
+	margin-right: 12px;
+}
+
+.signup-section{
+	text-align: center;
+}
+
+.signup-section p{
+	font-size: 1.125rem;
+}
+
+.signup-section button{
+	letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+
+    cursor: pointer;
+    
+    width: 100%;
+    background-color: transparent;  
+    padding: 13px 31px;
+    border-radius: 500px;
+    border: 1px solid #878787;
+    color: #6a6a6a;
+}
+
+.signup-section button:hover{   
+    border: 1px solid #000;
+}
+
+@font-face {
+  font-family: 'spotify-circular';
+  src: local('spotify-circular'),
+       url('../fonts/CircularSpotifyBlack.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'spotify-circular-regular';
+  src: local('spotify-circular'),
+       url('../fonts/CircularSpotifyBook.ttf') format("truetype");
+}
