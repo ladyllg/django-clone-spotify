@@ -3,7 +3,5 @@ from django.shortcuts import render
 import requests
 
 # Create your views here.
-def index(request):
-    r = requests.get('https://httpbin.org/status/418')
-    print(r.text)
-    return HttpResponse('<pre>' + r.text + '</pre>')
+def home(request):
+    return render(request, 'home.html')
